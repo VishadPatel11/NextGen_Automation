@@ -25,8 +25,8 @@ public class SqspLoginStepDef  {
     }
 
 
-    @Given("User is on Squarespace Login page")
-    public void user_is_on_Squarespace_Login_page() throws Throwable {
+    @Given("User is on Login page")
+    public void user_is_on_Login_page() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
         driver.get(configFileReader.getApplicationUrl());

@@ -23,7 +23,7 @@ public class Hooks {
 
     @Before
     public void beforeScenario(Scenario scenario) {
-        Reporter.assignAuthor("Squarespace - Vishad Patel");
+        Reporter.assignAuthor("Vishad Patel");
     }
         @After(order = 1)
         public void afterScenario(Scenario scenario) {
